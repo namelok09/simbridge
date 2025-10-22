@@ -1,7 +1,7 @@
-const express = require('express');
-const axios = require('axios');
-const app = express();
+import express from 'express';
+import axios from 'axios';
 
+const app = express();
 const PORT = process.env.PORT || 3000;
 const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxTSX-oYbq0HdP8i_Rmb31AyICVqj79AfS5GIwiRRit-e6SwV0nKtA6ms7wmQw0HiAnOQ/exec';
 
