@@ -1,13 +1,13 @@
 {
-  "name": "espbridge",
+  "name": "simbridge",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "node-fetch": "^3.0.0"
-  },
-  "type": "module"
+    "axios": "^1.6.0"
+  }
 }
