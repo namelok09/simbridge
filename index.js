@@ -50,31 +50,3 @@ app.listen(PORT, () => {
   console.log(`Bridge running on port ${PORT}`);
   console.log('Ready to receive data from ESP8266');
 });
-```
-
----
-
-### **STEP 4: Commit Changes**
-
-1. Scroll down to the bottom
-2. In the "Commit changes" box, type: `Accept HTTP requests`
-3. Click the green **"Commit changes"** button
-
----
-
-### **STEP 5: Wait for Render to Redeploy**
-
-1. Go to your **Render Dashboard**: https://dashboard.render.com
-2. Click on your **simbridge** service
-3. You'll see it's **"Deploying..."** (watch the logs)
-4. Wait until you see: **"Your service is live 🎉"** (takes 1-2 minutes)
-
-You'll see logs like:
-```
-==> Cloning from https://github.com/...
-==> Running 'npm install'...
-==> Build successful 🎉
-==> Deploying...
-Bridge running on port 10000
-Ready to receive data from ESP8266
-==> Your service is live 🎉
